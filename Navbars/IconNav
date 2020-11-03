@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+  #menu-toggle:checked + #menu {
+    display:block;
+  }
+</style>
+<div class="bg-hue h-full font-mono">
+  <!-- NAVBAR -->
+  <div class="lg:px-6 py-2 px-4 border-b-2 border-gray-600">
+    <i class="fa fa-fire fa-lg"></i>
+    <div class="inline lg:hidden float-right mt-1 ml-2 r">
+      <label for="menu-toggle"><i class="fa fa-bars fa-lg cursor-pointer"> </i></label>
+    </div>
+    <input type="checkbox" id="menu-toggle" class="float-right mt-4 hidden" />
+    <div class="pt-3 hidden" id="menu">
+      <nav class="cursor-pointer">
+        <ul>
+          <li class="">Home</li>
+          <li class="">About</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="lg:inline lg:float-right hidden">
+      <button class="px-2 border-transparent border-b-2 hover:border-teal-600 focus:outline-none outline-none">About</button>
+      <button class="px-2 border-transparent border-b-2 hover:border-teal-600 focus:outline-none outline-none">Resume</button>
+    </div>
+  </div>
+</div>
