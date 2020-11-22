@@ -1,0 +1,68 @@
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<div class="bg-gray-100 h-screen">
+  <div class="flex flex-wrap items-center px-16">
+    <!-- NAV BAR -->
+    <div class="flex-1 flex justify-between items-center font-bold">
+      <h1 class="text-lg">Homey</h1>
+    </div>
+
+    <div class="flex items-center w-auto">
+      <nav>
+        <div class="flex text-base text-gray-700 pt-0">
+          <h1><a class="p-4 py-3 block border-b-2 border-transparent hover:border-green-800" href="#">Servies</a></h1>
+          <h1><a class="p-4 py-3 block border-b-2 border-transparent hover:border-green-800" href="#">How it works</a></h1>
+          <h1><a class="p-4 py-3 block border-b-2 border-transparent hover:border-green-800" href="#">Co-working Space</a></h1>
+          <h1><a class="p-4 py-3 block border-b-2 border-transparent hover:border-green-800" href="#">Reviews</a></h1>
+          <h1><a class="p-4 py-3 block border-b-2 border-transparent hover:border-green-800 lg:mb-0 mb-2" href="#">Contact</a></h1>
+          <h1 class="p-4 py-3 block border text-sm rounded-lg my-1 bg-cyan-600 border-opacity-50 font-bold mx-28 text-white">Sign Up</h1>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="flex mt-4">
+    <div class="w-1/2">
+      <h1 class="text-6xl font-bold leading-tight text-center my-24">
+        Homes rent renovations, <br />
+        made easy!
+      </h1>
+    </div>
+    <div class="relative inset-0 w-1/2">
+      <img class="object-contain h-auto" src="https://images.unsplash.com/photo-1575543756946-e0fedd6a8e99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80" />
+    </div>
+  </div>
+
+  <div class="">
+    <div class="-mt-8 flex justify-center font-bold">
+      <h1 class="border text-2xl text-white bg-cyan-600 p-6 px-12">Rent Home</h1>
+      <h1 class="z-10 border text-2xl text-gray-900 p-6 px-12 bg-gray-100">Rent Home</h1>
+    </div>
+    <div class="flex justify-center">
+      <div class="px-4 rounded-sm border shadow-lg py-6 flex w-1/2">
+        <div class="w-1/3 mx-4">
+          <h1 class="text-2xl font-bold my-3">Location</h1>
+          <p class="text-base text-gray-600">Enter your Location</p>
+        </div>
+        <div class="w-2/3 mx-4">
+          <h1 class="text-2xl font-bold my-3">CheckIn - Checkout</h1>
+          <p class="text-base text-gray-600"><span class="mx-3">Set Date </span> <i class="fa fa-calendar" style="font-size:20px"></i> <span class="mx-3"> Set Date </span> <i class="fa fa-calendar" style="font-size:20px"></i></p>
+        </div>
+        <div class="mx-4 w-3/3 px-4 border border-black bg-gray-800 rounded-md">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg> -->
+          <i class="fa fa-search text-white my-5 p-4" style="font-size:24px"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <
+  <div class="flex justify-center my-20">
+    <h1 class="leading-relaxed text-2xl font-bold text-center">
+      We've reimagined the home rent <br />
+      renovation experience
+    </h1>
+  </div>
+</div>
