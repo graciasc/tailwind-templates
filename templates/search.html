@@ -1,0 +1,29 @@
+<div class="p-6 font-thin m-0 h-screen">
+  <div class="grid justify-center">
+    <div class="my-6 text-center">
+      <p class="text-xl">Read up on <span class="text-purple-300">Recipes </span> that make you Hunger.</p>
+      <p class="text-base my-2">Search for any Recipe, I'm sure we have something for you.</p>
+    </div>
+    <div class="mt-1 relative rounded-md shadow-sm flex">
+      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+        <span class="text-gray-500 sm:text-sm">
+          <i class="fa fa-search"></i>
+        </span>
+      </div>
+      <input name="recipe" id="recipe" class="focus:ring-purple-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm shadow appearance-none border py-2 px-3 text-grey-darker border-purple-300 outline-none rounded-md" />
+
+      <div class="absolute inset-y-0 right-0 flex items-center">
+        <label for="recipe" class="sr-only">Recipe</label>
+        <select id="recipe" name="recipe" class="focus:ring-purple-500 outline-none focus:gray-purple-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md" @change="changeTest">
+          <option>Recipes</option>
+          <option>UserName</option>
+        </select>
+        <i
+          class="fa fa-arrow-right inset-y-0 mb-2 pr-5 hover:text-gray-900 cursor-pointer text-gray-700"
+          style="font-size: 15px;margin-left: 10px;
+                margin-top: 5px;"
+        ></i>
+      </div>
+    </div>
+  </div>
+</div>
